@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Gurjeet Singh Ohri</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="css/icon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <img class="top-cloud object" src="images/cloud.png" alt="Cloud-img" data-value="3"/>
+        <h1>I'm Gurjeet Ohri.</h1>
+        <h2 class="programmer">a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom-cloud object" src="images/cloud.png" alt="Cloud-img" data-value="5"/>
+        <img src="images/mountain.png" alt="Mountain-img" />
+        <img class="bottom-right-cloud object" src="images/cloud.png" alt="Cloud-img" data-value="-8"/>
+    </div>
+
+    <div class="middle">
+        <div class="profile">
+            <img src="images/Gurjeet copy.png" alt="profile-img" width="200" style="margin-top: 80px;"/>
+            <h2>Hello.</h2>
+            <p id="intro">
+                I'm a young energetic individual who loves to travel and be in the moment!
+                <br>
+                <em><strong>What I'm good at?</strong></em>
+                <br>
+                    Programming 
+                    <br>
+                    Problem Solving
+                    <br>
+                    Observing & Analysing 
+                    <br>
+                    Lastly?, I make people happy! 
+                    <br>
+                <br>
+                I <img src="images/red heart.png" width="20px"> to solve problems, develop websites & apps.
+                <br>
+                Technically, I am a <strong>Software Developer</strong> & a <strong>Data Analyst</strong>.
+            </p>
+        </div>
+        <hr />
+
+        <div class="skills">
+            
+            <h2>My Skills.</h2>
+            
+            <div class="skill-row">
+                <img class="webdev" src="images/webdev.gif" alt="webdev-gif" />
+                <!-- width="240px" -->
+                <h3>Full Stack Development <span><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"></span></h3>
+                <p>
+                    I create <span id="elegant">elegant</span> websites using: <br>
+                    HTML, CSS, Javascript, React.js, Node.js, Express.js, Mongodb, MySQL.
+                </p>
+            </div>
+            
+            <div class="skill-row">
+                <img class="Android" src="images/android.gif" alt="android-gif" />
+                <!-- width="155px" -->
+                <h3 style="margin-top: 180px;">Android Development <span><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"></span></h3>
+                <p>
+                    I'm currently learning <span id="AndroidDev">Android Development</span> & developing projects using: Andriod Studio : Java & Kotlin.
+                    <br><br><br>
+                </p>
+            </div>
+
+            <div class="skill-row">
+                <img class="Laptop" src="images/laptop.gif" alt="Laptop-gif" />
+                <!-- width="160px" -->
+                <h3>Data Structures & Algorithms <span><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"><img src="images/star.png" alt="star-img" class="star"></span></h3>
+                <p>
+                    I'm currently advancing towards non-linear 
+                    <br>
+                    <span id="DSA">Data Structures</span> using Java. <br>
+                    I'm holding a nice grip on most of the problems related to Linear Data Structures.
+                </p>
+            </div>
+        
+        </div>
+        <hr />
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Interested in contacting me?</h3>
+            <p class="contact-msg">
+                I'm currently ready to collaborate on projects & develop Websites & Apps, provide Data-Driven solutions for you.
+            </p>
+            <a class="CONTACT ME" href="mailto:gurjeetsinghohri@gmail.com"><button class="btn" role="button">CONTACT ME</button></a>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <a class="footer-link" href="https://www.linkedin.com/in/gurjeetohri/" target="_blank">LinkedIn</a>
+        <a class="footer-link" href="https://www.instagram.com/gurjeetsinghohri/" target="_blank">Instagram</a>
+        <a class="footer-link" href="https://github.com/GurjeetOhri" target="_blank">Github</a>
+        <p class="copyright">© 2022 Gurjeet Ohri @ TechXOhri</p>
+    </div>
+
+    <script type="text/javascript">
+        document.addEventListener("mousemove", parallax);
+        function parallax(e){
+        document.querySelectorAll(".object").forEach(function(move){
+    
+            var moving_value = move.getAttribute("data-value");
+            var x = (e.clientX * moving_value) / 250;
+            var y = (e.clientY * moving_value) / 250;
+    
+            move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+        });
+        }
+        </script>
+</body>
+</html>

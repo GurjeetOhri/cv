@@ -1,0 +1,221 @@
+/*********************************************************** Tag Selectors ***********************************************************/
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    /* font-size: 2em; */
+    /* margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px; */
+}
+
+h1 {
+    /* padding-top: 100px; */
+    /* margin-top: 50px; */
+    /* font-family: 'Sa cramento', cursive; */
+    margin: 50px auto 0 auto;
+    font-family: "Parisienne", cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
+    /* 100% = 16px = 1em */
+    /* width: 10%;
+    margin: 0 auto; */
+    /* 0 auto 0 auto */
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: rgba(128, 128, 128, 0.514);
+    width: 5%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/************************************************************* ID Selectors *************************************************************/
+
+/* #intro{
+    width: 30%;
+    margin: auto;
+} */
+
+#elegant{
+    font-family: "Parisienne", cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: purple;
+}
+
+#AndroidDev{
+    font-family: "Parisienne", cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(72, 209, 14);
+}
+
+#DSA{
+    font-family: "Parisienne", cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(204, 20, 20);
+}
+
+/*******************************************************  Class Selectors  *******************************************************/
+
+.top {
+    background-color: #e4f5f9;
+    position: relative;
+    padding-top: 100px;
+    height: 645px;
+}
+
+.middle {
+    background-color: #fff2f2;
+    /* margin: 0px;    
+    height: 200px;
+    width: 200px;
+    background-color: red; */
+}
+
+.bottom {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    /* margin: 0px;
+    height: 200px;
+    width: 200px;
+    background-color: blue; */
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    width: 180px;
+    position: absolute;
+    left: 150px;
+    bottom: 300px;
+}
+
+.bottom-right-cloud{
+    width: 200px;
+    position: absolute;
+    right: 80px;
+    bottom: 150px;
+}
+
+.footer-link {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #eaf6f6;
+}
+
+.programmar {
+    font-weight: normal;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2; */
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.contact-msg {
+    width: 40%;
+    margin: 40px auto 50px;
+}
+
+.btn {
+    margin: 0px auto 40px;
+    background-image: linear-gradient(92.88deg,
+            #27c5da 9.16%,
+            #2282a4 43.89%,
+            #16a1b0 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 3rem;
+    width: 12rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:hover {
+    box-shadow: #11999ead 0 1px 20px;
+    transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        padding: 0 2.6rem;
+    }
+}
+
+.star{
+    width: 1.5rem;
+}
+/************************************************************* Images *************************************************************/
+
+.webdev {
+    width: 33%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Android {
+    position: relative;
+    left: 30px;
+    width: 22%;
+    float: right;
+    margin-left: 30px;
+}
+
+.Laptop {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
